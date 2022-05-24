@@ -1,0 +1,20 @@
+Roboto Bounded in Circle:
+
+On an infinite plane, a robot initialy stands at (0,0) and faces north. It can recieve 1 of 3 instructions:
+    "G": go straight 1
+    "L": ROTATE left 1
+    "R": ROTATE right 1
+
+The robot completes this set of given instructions infinitely, return true if there exists a circle in the place which
+the robot never leaves from
+
+Example 1:
+    Input:  instructions = "GGLLGG"
+    Output: true
+
+    Explanation:
+        The robot moves from (0,0) to (0,2), turns 180 degrees, and then returns to (0,0).
+        When repeating these instructions, the robot remains in the circle of radius 2 centered at the origin.
+
+
+YouTube Explanation: https://www.youtube.com/watch?v=nKv2LnC_g6E&ab_channel=NeetCode
